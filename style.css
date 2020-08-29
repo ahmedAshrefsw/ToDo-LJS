@@ -30,6 +30,9 @@ li{
     text-align: center;
     font-size: large;
 }
+li:hover{
+    background-color: #082f7c;
+}
 button{
     background-color:#1455D9;
     color: whitesmoke;
