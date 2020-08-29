@@ -7,6 +7,7 @@ function addTo(e){
   let text = input.value;
   let toDoIteam = `<li> ${text} </li>`;
   menu.innerHTML += toDoIteam;
+  input.value = "";
 }
 function remove(e){
     let itam = e.path[0];

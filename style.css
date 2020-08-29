@@ -39,6 +39,7 @@ button{
     text-decoration: none;
     box-sizing: border-box;
     font-size: large;
+    outline: none;
 }
 input{
     border-radius: 2em;
@@ -46,6 +47,7 @@ input{
     border-image: none;
     text-align: center;
     font-size: larger;
+    outline: none;
 }
 
 li{
