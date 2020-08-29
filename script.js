@@ -4,10 +4,13 @@ let menu = document.querySelector('ul');
 
 
 function addTo(e){
+  if(!input.value){
+    alert("please type something !");
+  }else{
   let text = input.value;
   let toDoIteam = `<li> ${text} </li>`;
   menu.innerHTML += toDoIteam;
-  input.value = "";
+  input.value = "";}
 }
 function remove(e){
     let itam = e.path[0];
