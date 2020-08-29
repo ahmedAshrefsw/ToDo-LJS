@@ -12,10 +12,12 @@ function addTo(e){
   menu.innerHTML += toDoIteam;
   input.value = "";}
 }
+
 function remove(e){
-    let itam = e.path[0];
-    itam.remove();
-    console.log(itam);
+    let item = e.path[0];
+    input.value = item.innerText;
+    item.remove();
 }
+
 btn.onclick = addTo; 
 menu.onclick = remove;
